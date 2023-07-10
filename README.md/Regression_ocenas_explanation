@@ -1,3 +1,4 @@
 # Regression
 Regression is very important topic in Machine Learning and I want to exploit it as much as I can
 # In this exercise I want to explore the patterns in "ocean dataset" which contain ocean parameters measurement data
+# And I want to track correlation between this parameters, then apply "Regression model" to deal with this problem 
