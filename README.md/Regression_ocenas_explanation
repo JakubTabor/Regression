@@ -9,3 +9,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Now I gonna deal with it, so I create variable which are my columns and iterate through it getting empty values and save them as "bottle"
 # Then I use tehnic "reset_index" on previous saved dataset and set (drop at True), so it gonna drop all empty values
 # I plot my dataset one more time and see that empty values are gone
+# Now I gonna first build correlations between columns and then visualize them
