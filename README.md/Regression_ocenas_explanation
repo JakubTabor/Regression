@@ -11,3 +11,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # I plot my dataset one more time and see that empty values are gone
 # Now I gonna first build correlations between columns and then visualize them
 # I can see the lowest correlation which is (lower number) and the strongest correlation which is (higher number)
+# For example (T_degC and O2ml_L) have strong correlation which is (0.8)
