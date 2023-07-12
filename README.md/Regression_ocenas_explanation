@@ -7,3 +7,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Then I check informations about my new dataset
 # I use "seaborn" to look at (empty values) in my dataset, I can clearly see size of lack values
 # Now I gonna deal with it, so I create variable which are my columns and iterate through it getting empty values and save them as "bottle"
+# Then I use tehnic "reset_index" on previous saved dataset and set (drop at True), so it gonna drop all empty values
