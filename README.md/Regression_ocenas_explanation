@@ -17,3 +17,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # But there is a strange bump (in range from 0 - 1000 m. depth), we gonna look at it later
 # I plot also correlation between (Salnty and Depthm) and see that if (depth increase salinity also increase)
 # Now I also want to see correlation between (Salnty and T_degC)
+# Distribution of data is very interesting comparing it to other plots, I can use Linear model in this case
