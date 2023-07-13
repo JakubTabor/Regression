@@ -15,4 +15,5 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # I also have negative correlation in case of (Depthm and T_degC) which is (- 0.67)
 # I plot on graph correlation between (Depth and T_degC) and see that (temperature decrese when depth incrise)
 # But there is a strange bump (in range from 0 - 1000 m. depth), we gonna look at it later
-# I plot also correlation between (Salinity and Depth) and see that if (depth increase salinity also increase)
+# I plot also correlation between (Salnty and Depthm) and see that if (depth increase salinity also increase)
+# Now I also want to see correlation between (Salnty and T_degC)
