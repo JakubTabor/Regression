@@ -14,3 +14,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # For example (T_degC and O2ml_L) have strong correlation which is (0.8) or (Salnty and Depthm) which is (0.56)
 # I also have negative correlation in case of (Depthm and T_degC) which is (- 0.67)
 # I plot on graph correlation between (Depth and T_degC) and see that (temperature decrese when depth incrise)
+# But there is a strange bump (in range from 0 - 1000 m. depth), we gonna look at it later
