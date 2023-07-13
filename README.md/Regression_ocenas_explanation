@@ -19,3 +19,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Now I also want to see correlation between (Salnty and T_degC)
 # Distribution of data is very interesting comparing it to other plots, I can use Linear model in this case
 # So first I gonna split my data to sets which are (bottle_train and bottle_test) and my dataset is (bottle)
+#Then I print shape of my data, to see how complicated is my dataset
