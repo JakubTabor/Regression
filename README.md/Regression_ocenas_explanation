@@ -23,3 +23,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # I gonna divide my data into (features which are all columns without T_degC), all of this I gonna convert into list
 # My target column will be "T_degC", Now when I have (features and target column) I can split data into (train and test sets)
 # I gonna take (X_train and X_test) from (bottle_train of features and only values), its previous splited data by (train_test_split) method 
+# It is data taken from (features variable), Now I gonna take data from (target variable), its only "T_degC" column
