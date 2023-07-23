@@ -30,3 +30,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # I save it my feature as "features1", and with use of it I prepare new (train and test set)
 # Then I create class of my "LinearRegression" and train my model with previous splitted new dataset
 # And save my predictions as "y_pred1", its prediction of my model on "X_test1"
+# Now to check model predictions "error" I gonna import "mean_squared_error" and supply it with (y_test1 and y_pred1)
