@@ -26,3 +26,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # It is data taken from (features variable), Now I gonna take data from (target variable), its only "T_degC" column
 # My (y_train and y_test) are (bottle_train of target with solo values)
 # Now when I have my data prepared and splitted I can use "Linear Regression" to make predictions
+# So first I import "LinearRegression" and now I gonna make predictions on only one feature which is "Salnty"
