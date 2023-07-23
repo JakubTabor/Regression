@@ -28,3 +28,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Now when I have my data prepared and splitted I can use "Linear Regression" to make predictions
 # So first I import "LinearRegression" and now I gonna make predictions on only one feature which is "Salnty"
 # I save it my feature as "features1", and with use of it I prepare new (train and test set)
+# Then I create class of my "LinearRegression" and train my model with previous splitted new dataset
