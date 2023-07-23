@@ -29,3 +29,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # So first I import "LinearRegression" and now I gonna make predictions on only one feature which is "Salnty"
 # I save it my feature as "features1", and with use of it I prepare new (train and test set)
 # Then I create class of my "LinearRegression" and train my model with previous splitted new dataset
+# And save my predictions as "y_pred1", its prediction of my model on "X_test1"
