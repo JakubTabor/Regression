@@ -34,3 +34,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # I save it as "mse_lin" and use "RMSE_lin", its squared "mse_lin variable", so I get my error in this formula
 # Then I visualize regression plot and supply (x as Salnty and y as T_degC)
 # I can clearly see on graph my model predictions
+# Now I gonna use all of my parameters to make predictions and see how the error changed
