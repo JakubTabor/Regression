@@ -35,3 +35,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Then I visualize regression plot and supply (x as Salnty and y as T_degC)
 # I can clearly see on graph my model predictions
 # Now I gonna use all of my parameters to make predictions and see how the error changed
+# So I train my model with previous defined (X_train and y_train) and get (y_pred2) by making predictions with (X_test)
