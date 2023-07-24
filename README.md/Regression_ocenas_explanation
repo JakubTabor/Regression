@@ -33,3 +33,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Now to check model predictions "error" I gonna import "mean_squared_error" and supply it with (y_test1 and y_pred1)
 # I save it as "mse_lin" and use "RMSE_lin", its squared "mse_lin variable", so I get my error in this formula
 # Then I visualize regression plot and supply (x as Salnty and y as T_degC)
+# I can clearly see on graph my model predictions
