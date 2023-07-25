@@ -9,3 +9,4 @@
 # I also (sort values) from the lowest to the highest, now I gonna explore the correlation in detail using different graph plots
 # First I visualize all correlations on (subplots), for better visuality
 # Then I visualize distribution of charges for (smokers and no-smokers), I can clearly see that smokers spent more on treatment
+# (no-smokers) spent from (0 - 20 000) and (smokers) spent from (10 000 - 50 000) then charges are decreasing
