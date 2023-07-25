@@ -8,3 +8,4 @@
 # Then I look at correlation of each column in relation to (charges column), I can see that (smoker cloumn) have the strongest correlation
 # I also (sort values) from the lowest to the highest, now I gonna explore the correlation in detail using different graph plots
 # First I visualize all correlations on (subplots), for better visuality
+# Then I visualize distribution of charges for (smokers and no-smokers), I can clearly see that smokers spent more on treatment
