@@ -2,3 +2,4 @@
 # And then use (Linear model) to deal with this dataset 
 # First I gonna check if my dataset include any (null values), it seems that this dataset is complete
 # Now I gonna do simple preprocessing, so I import (LabelEncoder and OneHotEncoder)
+# I use (LabelEncoder) to (drop duplicates from sex column) and change this column into numerical values
