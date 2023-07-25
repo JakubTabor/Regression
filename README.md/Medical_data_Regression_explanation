@@ -5,3 +5,4 @@
 # I use (LabelEncoder) to (drop duplicates from sex column) and change this column into numerical values
 # I do this same with (smoker column) and also with region column
 # My (region column) get numbers for each region, its not so good because they have no correlation, but its ok for now
+# Then I look at correlation of each column in relation to (charges column), I can see that (smoker cloumn) have the strongest correlation
