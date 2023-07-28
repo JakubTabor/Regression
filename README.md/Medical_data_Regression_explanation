@@ -23,4 +23,4 @@
 # But (18 year old smokers) spend from (15 000 - 35 000) for treatment, very similar to older (smokers persons)
 # Now we are gonna use (distplot) to see (Distribution of bmi), we can see that (BMI) grow from around (18 to somewhere over 30)
 # At around (30 years old it reaches the pick) and start decreasing to age of (50 years old)   
-# So we are gonna see how look charges for persons (with BMI equal or greater than 30), so when BMI reaches the pick
+# Next we are gonna see how look charges for persons (with BMI equal or greater than 30), so when BMI reaches the pick
