@@ -16,3 +16,4 @@
 # We can see that smokers womes spent from (20 000 - 40 000) and non-smoker womens spent from (5 000 - 10 000)
 # Then I plot on graph charges of (smoking mens and non-smoking mens) on a (Box plot)
 # Charges are similar to (womens charges) from (5 000 - 10 000) non-smokers and (20 000 - 40 000) for smokers
+# Now I gonna plot (Distribution of age) for patients, most of them are (around 20 years old) and range of data is from (20 to 65 year old)
