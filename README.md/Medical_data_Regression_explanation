@@ -21,3 +21,4 @@
 # Trend for smokers and non-smoker (depending on the age) is this same as previous, we have more smokers man and more non-smokers women
 # Now we are gonna plot on (Box plot) charges for (18 year old smokers), non-smokers spend less than (5 000)
 # But (18 year old smokers) spend from (15 000 - 35 000) for treatment, very similar to older (smokers persons)
+# Now we are gonna use (distplot) to see (Distribution of bmi), we can see that (BMI) grow from around (18 to somewhere over 30)
