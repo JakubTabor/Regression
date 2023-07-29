@@ -33,3 +33,4 @@
 # We can also se on (lmplot) linear pattern of data and rapid growth of charges for smokers
 # Now we are gonna look at (dependence of number of children for patients) I gonna use (catplot) for it
 # The most of patients don't have children, then some patients have (1 children or 2), in minority (patients have 3 or more)
+# Then I plot also on (catplot) number of (smokers and non-smokers) with dependence of sex, who have more than 0 childrens
