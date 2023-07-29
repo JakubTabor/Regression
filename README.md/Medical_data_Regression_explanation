@@ -30,3 +30,4 @@
 # The data for persons (BMI greater than 30) is irregular distributed, in case of (Persons with BMI less than 30), data keep the flowing pattern
 # Now we are gonna plot on Scatter plot (charges and bmi for smokers and non-smokers), then we do this same on (lmplot)
 # We can see that the (charges growth when BMI growth) and there are higher charges for smokers
+# We can also se on (lmplot) linear pattern of data and rapid growth of charges for smokers
