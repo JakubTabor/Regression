@@ -31,3 +31,4 @@
 # Now we are gonna plot on Scatter plot (charges and bmi for smokers and non-smokers), then we do this same on (lmplot)
 # We can see that the (charges growth when BMI growth) and there are higher charges for smokers
 # We can also se on (lmplot) linear pattern of data and rapid growth of charges for smokers
+# Now we are gonna look at (dependence of number of children for patients) I gonna use (catplot) for it
