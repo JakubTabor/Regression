@@ -42,3 +42,4 @@
 # Now I gonna prepare new (X and y) without (region column), I gonna (preprocess my data using PolynomialFeatures)
 # It gonna help my model to identify (nonlinear patterns) by adding polynomial terms to the model
 # The (degree) of the polynomial is used to control the number of features added, I set it to (two)
+# Then I transform my data (without target column) with use of (PolynomialFeatures)
