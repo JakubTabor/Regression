@@ -37,3 +37,4 @@
 # It seems that lot of smokers have children's (and most of them are mens)
 # Now i gonna use (Linear model) on my dataset, so first I need to divide my data into (train and test sets)
 # I prepare (X and y which is the target column) for (train_test_split) and I get (X and y sets)
+# Then I can import (LinearRegression) model and train it with (X_train and y_train), score is good, but we can boot it
