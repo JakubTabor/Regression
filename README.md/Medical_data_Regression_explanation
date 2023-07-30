@@ -41,3 +41,4 @@
 # I prepare (train and test set predictions) to plot them later on graph
 # Now I gonna prepare new (X and y) without (region column), I gonna (preprocess my data using PolynomialFeatures)
 # It gonna help my model to identify (nonlinear patterns) by adding polynomial terms to the model
+# The (degree) of the polynomial is used to control the number of features added, I set it to (two)
