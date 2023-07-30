@@ -44,3 +44,4 @@
 # The (degree) of the polynomial is used to control the number of features added, I set it to (two)
 # Then I transform my data (without target column) with use of (PolynomialFeatures)
 # And I create new (train and test sets) with (PolynomialFeatures) inside
+# I train my model once again (X_train and y_train) and call it (Polynomial Regression), score i much higher than previous
