@@ -35,3 +35,4 @@
 # The most of patients don't have children, then some patients have (1 children or 2), in minority (patients have 3 or more)
 # Then I plot also on (catplot) number of (smokers and non-smokers) with dependence of sex, who have more than 0 childrens
 # It seems that lot of smokers have children's (and most of them are mens)
+# Now i gonna use (Linear model) on my dataset, so first I need to divide my data into (train and test sets)
