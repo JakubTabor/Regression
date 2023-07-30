@@ -45,3 +45,4 @@
 # Then I transform my data (without target column) with use of (PolynomialFeatures)
 # And I create new (train and test sets) with (PolynomialFeatures) inside
 # I train my model once again (X_train and y_train) and call it (Polynomial Regression), score i much higher than previous
+# Then I also prepare predictions for (train and test set)
