@@ -40,3 +40,4 @@
 # Then I can import (LinearRegression) model and train it with (X_train and y_train), score is good, but we can boot it
 # I prepare (train and test set predictions) to plot them later on graph
 # Now I gonna prepare new (X and y) without (region column), I gonna (preprocess my data using PolynomialFeatures)
+# It gonna help my model to identify (nonlinear patterns) by adding polynomial terms to the model
