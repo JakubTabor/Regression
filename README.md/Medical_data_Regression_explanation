@@ -50,3 +50,4 @@
 # (R2 score) is used to evaluate the performance of a (linear regression model), (Best possible score is 1.0)
 # We have (0.833 on train data and 0.881 on test data) which is good, the worst score is (0.0)
 # Now I gonna print (how my model make predictions on the given dataset)
+# I supply (Y_train_pred) and then difference between (Y_train_pred - y_train), then i supply (Y_test_pred) and then difference between (Y_test_pred - y_test)
