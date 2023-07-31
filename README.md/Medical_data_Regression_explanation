@@ -52,3 +52,4 @@
 # Now I gonna print (how my model make predictions on the given dataset)
 # I supply (Y_train_pred) and then difference between (Y_train_pred - y_train), then i supply (Y_test_pred) and then difference between (Y_test_pred - y_test)
 # Then I use (plt hlines) to (draw horizontal lines) on my dataset predictions
+# My model perform very well on the dataset, I need to use (horizontal lines) to fit to the data
