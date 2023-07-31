@@ -49,3 +49,4 @@
 # I print (mean squared error) for (train data and test data) and also (r2 score) for (train data and test data)
 # (R2 score) is used to evaluate the performance of a (linear regression model), (Best possible score is 1.0)
 # We have (0.833 on train data and 0.881 on test data) which is good, the worst score is (0.0)
+# Now I gonna print (how my model make predictions on the given dataset)
