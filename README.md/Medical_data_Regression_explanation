@@ -46,3 +46,4 @@
 # And I create new (train and test sets) with (PolynomialFeatures) inside
 # I train my model once again (X_train and y_train) and call it (Polynomial Regression), score i much higher than previous
 # Then I also prepare predictions for (train and test set)
+# I print (mean squared error) for (train data and test data) and also (r2 score) for (train data and test data)
