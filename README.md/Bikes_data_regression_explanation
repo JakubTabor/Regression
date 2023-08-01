@@ -2,3 +2,4 @@
 # First I drop some columns that are useless for me
 # Now I gonna lock my (Hour column at 12) and drop the rest 
 # Then I make for loop for (column in index 1 to the last) and plot them on the (scatter plot) 
+# They will be named by the label and (Bike_Count) will be visible from the left
