@@ -1,2 +1,3 @@
 # I gonna explore dataset that include (renting a bike) depending on some features
 # First I drop some columns that are useless for me
+# Now I gonna lock my (Hour column at 12) and drop the rest 
