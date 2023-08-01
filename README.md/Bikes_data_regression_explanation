@@ -7,3 +7,4 @@
 # I drop (Wind_speed and Visibility), because they are just messy points
 # Now I gonna create (train, val and test sets) using (numpy split) and I split my data at (60% of data and then at 80% of data)
 # Then I define function that will return me (X and y), first I make (deepcopy of my dataframe)
+# Next I set condition for (x_labels) if is None, I define (X), which is (columns of dataframe that are not y_label) in acces to values
