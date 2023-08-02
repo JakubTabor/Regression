@@ -12,3 +12,4 @@
 # Then in else i specify that (if I have list of specific x_labels), then my X is equal to (dataframe of this x_labels)
 # Next I specify what is (y), it is (y_label of my datatframe) with reshape to 2D
 # And I (stack) both (X and y) horizontally, I save it as a new (data), then I return both (X and y) and new (data)
+# Now I gonna use (Temperature) column to create (train, val and test sets), because this column have the best pattern of data
