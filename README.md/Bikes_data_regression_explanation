@@ -15,3 +15,4 @@
 # Now I gonna use (Temperature) column to create (train, val and test sets), because this column have the best pattern of data
 # So I use my (get_xy) fuction and (y label which is Bike_Count) and for (x_labels Temperature(C) column)
 # Then I import (LinearRegression) and name it at (temp_reg), because of (Temperature feature)
+# and train my model (X_train_temp, y_train_temp) and get pretty low score
