@@ -13,3 +13,4 @@
 # Next I specify what is (y), it is (y_label of my datatframe) with reshape to 2D
 # And I (stack) both (X and y) horizontally, I save it as a new (data), then I return both (X and y) and new (data)
 # Now I gonna use (Temperature) column to create (train, val and test sets), because this column have the best pattern of data
+# So I use my (get_xy) fuction and (y label which is Bike_Count) and for (x_labels Temperature(C) column)
