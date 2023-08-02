@@ -10,3 +10,4 @@
 # Next I set condition for (x_labels) if is None, I define (X), which is (columns of dataframe that are not y_label) in acces to values
 # In else I set condition (if there is x_labels), then my (X) is (x_labels of just that label in dataframe) with reshape to (2D)
 # Then in else i specify that (if I have list of specific x_labels), then my X is equal to (dataframe of this x_labels)
+# Next I specify what is (y), it is (y_label of my datatframe) with reshape to 2D
