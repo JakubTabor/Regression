@@ -17,4 +17,5 @@
 # Then I import (LinearRegression) and name it at (temp_reg), because of (Temperature feature)
 # and train my model (X_train_temp, y_train_temp) and get pretty low score
 # I can see that the dependence of this feature is not so strong, but exist some correlation
-# Now I gonna plot my model predictions on (tensorflow linspace), data will be (from -20 to 40) and (100 values from it)
+# Now I gonna plot my model predictions on (tensorflow linspace), data will be (from -20 to 40) and (100 values from it), i save it as (x)
+# To (plt.plot) i put (x variable) and (model : temp_reg.predict this x variable), reshaped into (numpy 2D array)
