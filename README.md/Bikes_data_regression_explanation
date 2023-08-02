@@ -16,3 +16,4 @@
 # So I use my (get_xy) fuction and (y label which is Bike_Count) and for (x_labels Temperature(C) column)
 # Then I import (LinearRegression) and name it at (temp_reg), because of (Temperature feature)
 # and train my model (X_train_temp, y_train_temp) and get pretty low score
+# I can see that the dependence of this feature is not so strong, but exist some correlation
