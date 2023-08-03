@@ -32,3 +32,5 @@
 
 # Now I gonna use (Regression for Neural Net), but first I gonna define plot function, that will plot (history of my model)
 # So I gonna take from history (loss and val_loss), set their labels and show them on (Grid) with (legend)
+
+# Then I gonna normalize my data for (Neural Net) using (tensorflow) and pass the model (tf.keras.layers.Normalization)
