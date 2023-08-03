@@ -30,4 +30,4 @@
 # I named my model (all_reg) and train it with new all features (X_train_all and y_train_all)
 # And get score which is much higher than previous
 
-# 
+# Now I gonna use
