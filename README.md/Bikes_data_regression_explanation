@@ -19,3 +19,4 @@
 # I can see that the dependence of this feature is not so strong, but exist some correlation
 # Now I gonna plot my model predictions on (tensorflow linspace), data will be (from -20 to 40) and (100 values from it), i save it as (x)
 # To (plt.plot) i put (x variable) and (model : temp_reg.predict this x variable), reshaped into (numpy 2D array)
+# And now I can look how my model works on (Temperature(C)) data, its not perfect, but it fits into a pattern
