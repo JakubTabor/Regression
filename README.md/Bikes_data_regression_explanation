@@ -23,3 +23,4 @@
 # Now I gonna use all of my features to train the model, so I do as previous (np.split) and get (train, val and test sets)
 # I use my function (get_xy) to get (train, val and test) and pass all columns without (Bike_Count) (df.columns[1:])
 # I named my model (all_reg) and train it with new all features (X_train_all and y_train_all)
+# And get score which is much higher than previous
