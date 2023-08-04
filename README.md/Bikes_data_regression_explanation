@@ -38,3 +38,4 @@
 
 # Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
 # I pass my normalised layer, which i named (temp_normalizer) and one (Dense leayer with one unit)
+# One single node means that my model is linear, output is also linear, because it doesn't have any activation function
