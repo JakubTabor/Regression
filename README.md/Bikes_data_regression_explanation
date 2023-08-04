@@ -37,3 +37,4 @@
 # I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
 
 # Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
+# I pass my normalised layer, which i named (temp_normalizer) and one (Dense leayer with one unit)
