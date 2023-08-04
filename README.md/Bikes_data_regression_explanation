@@ -35,3 +35,5 @@
 
 # Then I gonna normalize my data for (Neural Net) using (tensorflow) and pass the model (tf.keras.layers.Normalization)
 # I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
+
+# Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
