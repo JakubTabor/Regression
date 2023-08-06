@@ -52,7 +52,9 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 
 # Then I visualize regression plot and supply (x as Salnty and y as T_degC)
 # I can clearly see on graph my model predictions, we isolated the feature of Salinity from the others, but it doesn't seem to exist a clear trend
-# Now I gonna use all of my parameters to make predictions and see how the error changed
+
+# Now I gonna use all of my features to make predictions and see how the error changed
 # So I train my model with previous defined (X_train and y_train) and get (y_pred2) by making predictions with (X_test)
 # Then I define (RMSE) for my model and see that the error decreased
-# This was a use case of (Linear Regression) model to deal with this specific problem and find correlation between (Temperature and Salinity)
+
+# This was a use case of (Linear Regression) model to deal with this problem
