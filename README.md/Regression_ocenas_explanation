@@ -58,3 +58,4 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Then I define (RMSE) for my model and see that the error decreased
 
 # This was a use case of (Linear Regression) model to deal with this problem
+# One feature as Salinity is not enough to find a link with Temperature
