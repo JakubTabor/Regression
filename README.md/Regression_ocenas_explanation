@@ -11,12 +11,16 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 # Now I gonna deal with it, so I create variable which are my columns and iterate through it getting empty values and save them as "bottle"
 # Then I use tehnic "reset_index" on previous saved dataset and set (drop at True), so it gonna drop all empty values
 # I plot my dataset one more time and see that empty values are gone
+
 # Now I gonna first build correlations between columns and then visualize them
 # I can see the lowest correlation which is (lower number) and the strongest correlation which is (higher number)
 # For example (T_degC and O2ml_L) have strong correlation which is (0.8) or (Salnty and Depthm) which is (0.56)
 # I also have negative correlation in case of (Depthm and T_degC) which is (- 0.67)
+
 # I plot on graph correlation between (Depth and T_degC) and see that (temperature decrese when depth incrise)
-# But there is a strange bump (in range from 0 - 1000 m. depth), we gonna look at it later
+# But there is a strange bump (in range from 0 - 1000 m. depth)
+# We can see that there must be some parameter that affect this change in temperature
+
 # I plot also correlation between (Salnty and Depthm) and see that if (depth increase salinity also increase)
 # Now I also want to see correlation between (Salnty and T_degC)
 # Distribution of data is very interesting comparing it to other plots, I can use Linear model in this case
