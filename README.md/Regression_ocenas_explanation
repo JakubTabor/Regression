@@ -43,13 +43,15 @@ Regression is very important topic in Machine Learning and I want to exploit it 
 
 # Now when I have my data prepared and splitted I can use "Linear Regression" to make predictions
 # So first I import "LinearRegression" and now I gonna make predictions on only one feature which is "Salnty" and how it impact (temperature)
-# I save it my feature as "features1", and with use of it I prepare new (train and test set)
+# I save my feature as "features1", and with use of it I prepare new (train and test set)
+
 # Then I create class of my "LinearRegression" and train my model with previous splitted new dataset
 # And save my predictions as "y_pred1", its prediction of my model on "X_test1"
 # Now to check model predictions "error" I gonna import "mean_squared_error" and supply it with (y_test1 and y_pred1)
 # I save it as "mse_lin" and use "RMSE_lin", its squared "mse_lin variable", so I get my error in this formula
+
 # Then I visualize regression plot and supply (x as Salnty and y as T_degC)
-# I can clearly see on graph my model predictions
+# I can clearly see on graph my model predictions, we isolated the feature of Salinity from the others, but it doesn't seem to exist a clear trend
 # Now I gonna use all of my parameters to make predictions and see how the error changed
 # So I train my model with previous defined (X_train and y_train) and get (y_pred2) by making predictions with (X_test)
 # Then I define (RMSE) for my model and see that the error decreased
