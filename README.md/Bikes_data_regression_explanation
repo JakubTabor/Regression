@@ -53,3 +53,4 @@
 # I have six features, so I put (input_shape equal 6), and then I can build my Neural Net
 
 # First I can put my (normalised layer), then two hidden layers with (32 neurons and activation relu)
+# And the output layer (without activation) and I compile with this same parameters as previous, but decrease (learning_rate just a bit)
