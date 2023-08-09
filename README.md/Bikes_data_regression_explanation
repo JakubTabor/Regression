@@ -43,3 +43,5 @@
 # And set loss as "mean_squared_error", to evaluate my linear model
 # Then I train my model with (X_train_temp and y_train_temp) and also validation sets (X_val_temp and y_val_temp)
 # I use my (plot function) and see that my loss i decreasing, it is calculated with MSE
+
+# Then I gonna use this same plot as previous for my (Linear Regression model) and use it on (Neural Net Regressor)
