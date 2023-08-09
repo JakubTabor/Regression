@@ -49,3 +49,4 @@
 # Its a different aproach, with use of backpropagtion to train our Neural Net
 
 # Now I gonna use Neural Net instead of one single node to make predictions
+# I use my normalizer to (normalize and adapt all features of my dataset X_train_all)
