@@ -50,3 +50,4 @@
 
 # Now I gonna use Neural Net instead of one single node to make predictions
 # I use my normalizer to (normalize and adapt all features of my dataset X_train_all)
+# I have six features, so I put (input_shape equal 6), and then I can build my Neural Net
