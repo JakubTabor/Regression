@@ -37,7 +37,7 @@
 # I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
 
 # Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
-# I pass my normalised layer, which i named (temp_normalizer) and one (Dense leayer with one unit)
+# I pass my (normalised layer), which i named (temp_normalizer) and one (Dense leayer with one unit)
 # One single node means that my model is linear, output is also linear, because it doesn't have any activation function
 # Then I compile my model with (Adam optimizer and loss as mean squared error), I set also learning rate at (0.1)
 # And set loss as "mean_squared_error", to evaluate my linear model
@@ -51,3 +51,5 @@
 # Now I gonna use Neural Net instead of one single node to make predictions
 # I use my normalizer to (normalize and adapt all features of my dataset X_train_all)
 # I have six features, so I put (input_shape equal 6), and then I can build my Neural Net
+
+# First I can put my (normalised layer), then two hidden layers with (32 neurons and activation relu)
