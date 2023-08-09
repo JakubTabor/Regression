@@ -45,3 +45,5 @@
 # I use my (plot function) and see that my loss i decreasing, it is calculated with MSE
 
 # Then I gonna use this same plot as previous for my (Linear Regression model) and use it on (Neural Net Regressor)
+# We can see that our (Neural Net Regressor) predict just a bit different
+# Its a different aproach, with use of backpropagtion to train our Neural Net
