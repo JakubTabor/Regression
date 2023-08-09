@@ -40,3 +40,4 @@
 # I pass my normalised layer, which i named (temp_normalizer) and one (Dense leayer with one unit)
 # One single node means that my model is linear, output is also linear, because it doesn't have any activation function
 # Then I compile my model with (Adam optimizer and loss as mean squared error), I set also learning rate at (0.1)
+# And set loss as "mean_squared_error", to evaluate my linear model
