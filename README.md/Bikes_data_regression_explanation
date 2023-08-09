@@ -41,3 +41,4 @@
 # One single node means that my model is linear, output is also linear, because it doesn't have any activation function
 # Then I compile my model with (Adam optimizer and loss as mean squared error), I set also learning rate at (0.1)
 # And set loss as "mean_squared_error", to evaluate my linear model
+# Then I train my model with (X_train_temp and y_train_temp) and also validation sets (X_val_temp and y_val_temp)
