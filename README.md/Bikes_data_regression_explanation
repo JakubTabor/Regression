@@ -55,3 +55,5 @@
 # First I can put my (normalised layer), then two hidden layers with (32 neurons and activation relu)
 # And the output layer (without activation) and I compile with this same parameters as previous, but decrease (learning_rate just a bit)
 # Then I do training of my model with (X_train_all and y_train_all) and also valid data (X_val_all and y_val_all)
+
+# on my graph I see that loss is decreasing not as smooth as previous, but it reach same results as previous
