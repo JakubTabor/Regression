@@ -58,3 +58,4 @@
 
 # On my graph I see that loss is decreasing not as smooth as previous, but it reach same results as previous
 # In our Neural Net model i can't get score, but I can use (mean squared error) to evaluate my model
+# I gonna write (MSE function and use it on Linear Regression model as well as on Neural Net model)
