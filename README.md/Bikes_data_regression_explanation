@@ -56,4 +56,5 @@
 # And the output layer (without activation) and I compile with this same parameters as previous, but decrease (learning_rate just a bit)
 # Then I do training of my model with (X_train_all and y_train_all) and also valid data (X_val_all and y_val_all)
 
-# on my graph I see that loss is decreasing not as smooth as previous, but it reach same results as previous
+# On my graph I see that loss is decreasing not as smooth as previous, but it reach same results as previous
+# In our Neural Net model i can't get score, but I can use (mean squared error) to evaluate my model
