@@ -68,3 +68,5 @@
 # I gonna plot the results on the same axes, so I set (aspect to 'equal') and then set (true values and predictions for Linear Regression and Neural net)
 # Then set limits for (approximate number of bikes), dots for Neural Net are more spread out
 # And Linear Regression fit better, so in this case (Linear Regressor) perform better 
+
+# It is valuable to use (non-linear model) for comparison with the results of Linear model to see which one perform better
