@@ -66,3 +66,4 @@
 # Whats interesting on Neural Net I have larger (mean squared error), Now I gonna plot (actual results vs predictions)
 
 # I gonna plot the results on the same axes, so I set (aspect to 'equal') and then set (true values and predictions for Linear Regression and Neural net)
+# Then set limits for (approximate number of bikes), dots for Neural Net are more spread out
