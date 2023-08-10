@@ -62,3 +62,4 @@
 # I gonna write (MSE function and use it on Linear Regression model as well as on Neural Net model)
 # So I get predictions for (y_pred_lr and y_pred_nn) on (X_test_all)
 # And (MSE function will take) (square difference between y_pred - y_real and take mean of it), thats how I gonna get 
+# I get (mean squared error) for Linear Regression and then for Neural Net
