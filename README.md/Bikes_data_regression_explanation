@@ -33,10 +33,10 @@
 * And get score which is much higher than previous
 
 # Now I gonna use (Regression for Neural Net), but first I gonna define plot function, that will plot (history of my model)
-# So I gonna take from history (loss and val_loss), set their labels and show them on (Grid) with (legend)
+* So I gonna take from history (loss and val_loss), set their labels and show them on (Grid) with (legend)
 
 # Then I gonna normalize my data for (Neural Net) using (tensorflow) and pass the model (tf.keras.layers.Normalization)
-# I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
+* I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
 
 # Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
 # I pass my (normalised layer), which i named (temp_normalizer) and one (Dense leayer with one unit)
