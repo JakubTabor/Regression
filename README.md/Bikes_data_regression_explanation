@@ -39,11 +39,13 @@
 * I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
 
 # Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
-# I pass my (normalised layer), which i named (temp_normalizer) and one (Dense leayer with one unit)
-# One single node means that my model is linear, output is also linear, because it doesn't have any activation function
+* I pass my (normalised layer), which i named (temp_normalizer) and one (Dense leayer with one unit)
+* One single node means that my model is linear, output is also linear, because it doesn't have any activation function
+
 # Then I compile my model with (Adam optimizer and loss as mean squared error), I set also learning rate at (0.1)
-# And set loss as "mean_squared_error", to evaluate my linear model
-# Then I train my model with (X_train_temp and y_train_temp) and also validation sets (X_val_temp and y_val_temp)
+* And set loss as "mean_squared_error", to evaluate my linear model
+* Then I train my model with (X_train_temp and y_train_temp) and also validation sets (X_val_temp and y_val_temp)
+
 # I use my (plot function) and see that my loss i decreasing, it is calculated with MSE
 
 # Then I gonna use this same plot as previous for my (Linear Regression model) and use it on (Neural Net Regressor)
