@@ -7,13 +7,14 @@
 * The best linear pattern I can see on the (Temperature) plot
 
 # I drop (Wind_speed and Visibility), because they are just messy points
+
 # Now I gonna create (train, val and test sets) using (numpy split) and I split my data at (60% of data and then at 80% of data)
-# Then I define function that will return me (X and y), first I make (deepcopy of my dataframe)
-# Next I set condition for (x_labels) if is None, I define (X), which is (columns of dataframe that are not y_label) in acces to values
-# In else I set condition (if there is x_labels), then my (X) is (x_labels of just that label in dataframe) with reshape to (2D)
-# Then in else i specify that (if I have list of specific x_labels), then my X is equal to (dataframe of this x_labels)
-# Next I specify what is (y), it is (y_label of my datatframe) with reshape to 2D
-# And I (stack) both (X and y) horizontally, I save it as a new (data), then I return both (X and y) and new (data)
+* Then I define function that will return me (X and y), first I make (deepcopy of my dataframe)
+* Next I set condition for (x_labels) if is None, I define (X), which is (columns of dataframe that are not y_label) in acces to values
+* In else I set condition (if there is x_labels), then my (X) is (x_labels of just that label in dataframe) with reshape to (2D)
+* Then in else i specify that (if I have list of specific x_labels), then my X is equal to (dataframe of this x_labels)
+* Next I specify what is (y), it is (y_label of my datatframe) with reshape to 2D
+* And I (stack) both (X and y) horizontally, I save it as a new (data), then I return both (X and y) and new (data)
 
 # Now I gonna use (Temperature) column to create (train, val and test sets), because this column have the best pattern of data
 # So I use my (get_xy) fuction and (y label which is Bike_Count) and for (x_labels Temperature(C) column)
