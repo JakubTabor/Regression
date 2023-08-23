@@ -1,9 +1,11 @@
 # Here I gonna explore dataset that include some informations about (smokers and non-smokers), I need to find strong correlations 
-# And then use (Linear model) to deal with this dataset 
+* And then use (Linear model) to deal with this dataset 
+
 # First I gonna check if my dataset include any (null values), it seems that this dataset is complete
-# Now I gonna do simple preprocessing, so I import (LabelEncoder and OneHotEncoder)
-# I use (LabelEncoder) to (drop duplicates from sex column) and change this column into numerical values
-# I do this same with (smoker column) and also with region column
+* Now I gonna do simple preprocessing, so I import (LabelEncoder and OneHotEncoder)
+* I use (LabelEncoder) to (drop duplicates from sex column) and change this column into numerical values
+* I do this same with (smoker column) and also with region column
+
 # My (region column) get numbers for each region, its not so good because they have no correlation, but its ok for now
 # Then I look at correlation of each column in relation to (charges column), I can see that (smoker cloumn) have the strongest correlation
 # I also (sort values) from the lowest to the highest, now I gonna explore the correlation in detail using different graph plots
