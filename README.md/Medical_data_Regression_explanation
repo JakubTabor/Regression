@@ -49,13 +49,15 @@
 # Now i gonna use (Linear model) on my dataset, so first I need to divide my data into (train and test sets)
 * I prepare (X and y which is the target column) for (train_test_split) and I get (X and y sets)
 
-# Then I can import (LinearRegression) model and train it with (X_train and y_train), score is good, but we can boot it
-# I prepare (train and test set predictions) to plot them later on graph
+# Then I can import (LinearRegression) model and train it with (X_train and y_train), score is good, but we can boost it
+* I prepare (train and test set predictions) to plot them later on graph
+
 # Now I gonna prepare new (X and y) without (region column), I gonna (preprocess my data using PolynomialFeatures)
-# It gonna help my model to identify (nonlinear patterns) by adding polynomial terms to the model
-# The (degree) of the polynomial is used to control the number of features added, I set it to (two)
-# Then I transform my data (without target column) with use of (PolynomialFeatures)
-# And I create new (train and test sets) with (PolynomialFeatures) inside
+* It gonna help my model to identify (nonlinear patterns) by adding polynomial terms to the model
+* The (degree) of the polynomial is used to control the number of features added, I set it to (two)
+* Then I transform my data (without target column) with use of (PolynomialFeatures)
+* And I create new (train and test sets) with (PolynomialFeatures) inside
+
 # I train my model once again (X_train and y_train) and call it (Polynomial Regression), score i much higher than previous
 # Then I also prepare predictions for (train and test set)
 # I print (mean squared error) for (train data and test data) and also (r2 score) for (train data and test data)
