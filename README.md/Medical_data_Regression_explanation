@@ -23,8 +23,9 @@
 * Charges are similar to (womens charges) from (5 000 - 10 000) non-smokers and (20 000 - 40 000) for smokers
 
 # Now I gonna plot (Distribution of age) for patients, most of them are (around 20 years old) and range of data is from (20 to 65 year old)
-# What's interesting to notice is that we have patients (below 20 years old), we are gonna plot it on (catplot)
-# Trend for smokers and non-smoker (depending on the age) is this same as previous, we have more smokers man and more non-smokers women
+* What's interesting to notice is that we have patients (below 20 years old), we are gonna plot it on (catplot)
+* Trend for smokers and non-smoker (depending on the age) is this same as previous, we have more smokers man and more non-smokers women
+
 # Now we are gonna plot on (Box plot) charges for (18 year old smokers), non-smokers spend less than (5 000)
 # But (18 year old smokers) spend from (15 000 - 35 000) for treatment, very similar to older (smokers persons)
 # Now we are gonna use (distplot) to see (Distribution of bmi), we can see that (BMI) grow from around (18 to somewhere over 30)
