@@ -27,11 +27,12 @@
 * Trend for smokers and non-smoker (depending on the age) is this same as previous, we have more smokers man and more non-smokers women
 
 # Now we are gonna plot on (Box plot) charges for (18 year old smokers), non-smokers spend less than (5 000)
-# But (18 year old smokers) spend from (15 000 - 35 000) for treatment, very similar to older (smokers persons)
+* But (18 year old smokers) spend from (15 000 - 35 000) for treatment, very similar to older (smokers persons)
+
 # Now we are gonna use (distplot) to see (Distribution of bmi), we can see that (BMI) grow from around (18 to somewhere over 30)
-# At around (30 years old it reaches the pick) and start decreasing to age of (50 years old)   
-# Next we are gonna see how look charges for persons (with BMI equal or greater than 30), so when BMI reaches the pick
-# Persons with (BMI equal or greater than 30) spend the most from (0 to 20 000) then less of them something around (30 000 to 50 000)
+* At around (30 years old it reaches the pick) and start decreasing to age of (50 years old)   
+* Next we are gonna see how look charges for persons (with BMI equal or greater than 30), so when BMI reaches the pick
+* Persons with (BMI equal or greater than 30) spend the most from (0 to 20 000) then less of them something around (30 000 to 50 000)
 # Now we are gonna compare (Distribution of charges for patients with BMI less than 30)
 # The most of patients spend from (0 to 10 000) then spends decrease to (30 000)
 # The data for persons (BMI greater than 30) is irregular distributed, in case of (Persons with BMI less than 30), data keep the flowing pattern
