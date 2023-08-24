@@ -1,1 +1,65 @@
+# Portfolio_Regression
+* I am living link to dataset https://www.kaggle.com/sohier/calcofi
+
+# In this exercise I want to explore the patterns in "ocean dataset" which contain ocean parameters measurement data
+* And I want to track correlation between this parameters, then apply "Regression model" to deal with this problem 
+
+# First I load dataset and save it as "bot" and get informations of this data, using "info()"
+* Dataset is very big, so I gonna keep only the most important "in my opinion" columns, I lock numbers of this columns
+* Then I check informations about my new dataset
+
+* I use "seaborn" to look at (empty values) in my dataset, I can clearly see size of lack values
+* Now I gonna deal with it, so I create variable which are my columns and iterate through it getting empty values and save them as "bottle"
+* Then I use tehnic "reset_index" on previous saved dataset and set (drop at True), so it gonna drop all empty values
+* I plot my dataset one more time and see that empty values are gone
+
+# Now I gonna first build correlations between columns and then visualize them
+* I can see the lowest correlation which is (lower number) and the strongest correlation which is (higher number)
+* For example (T_degC and O2ml_L) have strong correlation which is (0.8) or (Salnty and Depthm) which is (0.56)
+* I also have negative correlation in case of (Depthm and T_degC) which is (- 0.67)
+
+* I plot on graph correlation between (Depth and T_degC) and see that (temperature decrese when depth incrise)
+* But there is a strange bump (in range from 0 - 1000 m. depth)
+* We can see that there must be some parameter that affect this change in temperature
+
+* I plot also correlation between (Salnty and Depthm) and see that if (depth increase salinity also increase)
+* Now I also want to see correlation between (Salnty and T_degC)
+
+# Distribution of data tell us that it don't seem to have a strong relationship
+* But with use of some additional informations on wikipedia (https://en.wikipedia.org/wiki/Potential_density)
+* We can see that (density), also play the important role, density is not a measured but a calculated quantity from (Temperature, Pressure and Salinity)
+* In conclusion Temperature can be expressed as a function of Salinity and Density
+* We add additional variable to our graph (theta_step) and include it to our data, with use of (STheta), I call it (bottle_stheta)
+* It looks that all is working, but we can call it (potential density), it's not the real density at the specific depth
+
+# Now we can create a (predictive model), but before we need to prepare the data
+* So first I gonna split my data to sets which are (bottle_train and bottle_test) and my dataset is (bottle)
+* Then I print shape of my data, to see how complicated is my dataset
+
+* I gonna divide my data into (features which are all columns without T_degC), all of this I gonna convert into list
+* My target column will be "T_degC", Now when I have (features and target column) I can split data into (train and test sets)
+* I gonna take (X_train and X_test) from (bottle_train of features and only values), its previous splited data by (train_test_split) method 
+* It is data taken from (features variable), Now I gonna take data from (target variable), its only "T_degC" column
+* My (y_train and y_test) are (bottle_train of target with solo values)
+
+# Now when I have my data prepared and splitted I can use "Linear Regression" to make predictions
+* So first I import "LinearRegression" and now I gonna make predictions on only one feature which is "Salnty" and how it impact (temperature)
+* I save my feature as "features1", and with use of it I prepare new (train and test set)
+
+* Then I create class of my "LinearRegression" and train my model with previous splitted new dataset
+* And save my predictions as "y_pred1", its prediction of my model on "X_test1"
+* Now to check model predictions "error" I gonna import "mean_squared_error" and supply it with (y_test1 and y_pred1)
+* I save it as "mse_lin" and use "RMSE_lin", its squared "mse_lin variable", so I get my error in this formula
+
+# Then I visualize regression plot and supply (x as Salnty and y as T_degC)
+* I can clearly see on graph my model predictions, we isolated the feature of Salinity from the others, but it doesn't seem to exist a clear trend
+
+# Now I gonna use all of my features to make predictions and see how the error changed
+* So I train my model with previous defined (X_train and y_train) and get (y_pred2) by making predictions with (X_test)
+* Then I define (RMSE) for my model and see that the error decreased
+
+# This was a use case of (Linear Regression) model to deal with this problem
+* One feature as Salinity is not enough to find a link with Temperature
+* In order to enhance the temperature prediction with the linear regression model we need to use more features 
+* That way we give useful informations to our predictive model.
 
