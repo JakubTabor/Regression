@@ -1,1 +1,77 @@
+# I gonna explore dataset that include (renting a bike) depending on some features
+* First I drop some columns that are useless for me
+* Now I gonna lock my (Hour column at 12) and drop the rest 
 
+# Then I make for loop for (column in index 1 to the last) and plot them on the (scatter plot) 
+* They will be named by the label and (Bike_Count) will be visible from the left
+* The best linear pattern I can see on the (Temperature) plot
+
+# I drop (Wind_speed and Visibility), because they are just messy points
+
+# Now I gonna create (train, val and test sets) using (numpy split) and I split my data at (60% of data and then at 80% of data)
+* Then I define function that will return me (X and y), first I make (deepcopy of my dataframe)
+* Next I set condition for (x_labels) if is None, I define (X), which is (columns of dataframe that are not y_label) in acces to values
+* In else I set condition (if there is x_labels), then my (X) is (x_labels of just that label in dataframe) with reshape to (2D)
+* Then in else i specify that (if I have list of specific x_labels), then my X is equal to (dataframe of this x_labels)
+* Next I specify what is (y), it is (y_label of my datatframe) with reshape to 2D
+* And I (stack) both (X and y) horizontally, I save it as a new (data), then I return both (X and y) and new (data)
+
+# Now I gonna use (Temperature) column to create (train, val and test sets), because this column have the best pattern of data
+* So I use my (get_xy) fuction and (y label which is Bike_Count) and for (x_labels Temperature(C) column)
+
+# Then I import (LinearRegression) and name it at (temp_reg), because of (Temperature feature)
+* and train my model (X_train_temp, y_train_temp) and get pretty low score
+* I can see that the dependence of this feature is not so strong, but exist some correlation
+
+# Now I gonna plot my model predictions on (tensorflow linspace), data will be (from -20 to 40) and (100 values from it), i save it as (x)
+* To (plt.plot) i put (x variable) and (model : temp_reg.predict this x variable), reshaped into (numpy 2D array)
+* And now I can look how my model works on (Temperature(C)) data, its not perfect, but it fits into a pattern
+
+# Now I gonna use all of my features to train the model, so I do as previous (np.split) and get (train, val and test sets)
+* I use my function (get_xy) to get (train, val and test) and pass all columns without (Bike_Count) (df.columns[1:])
+* I named my model (all_reg) and train it with new all features (X_train_all and y_train_all)
+* And get score which is much higher than previous
+
+# Now I gonna use (Regression for Neural Net), but first I gonna define plot function, that will plot (history of my model)
+* So I gonna take from history (loss and val_loss), set their labels and show them on (Grid) with (legend)
+
+# Then I gonna normalize my data for (Neural Net) using (tensorflow) and pass the model (tf.keras.layers.Normalization)
+* I set (input_shape = (1, )) because I gonna do it solo on (Temperature(C) ), then (adapt X_train_temp with reshape to one single vector reshape(-1)) 
+
+# Then I create my model and name it (temp_nn_model), because it gonna be trained on one feature
+* I pass my (normalised layer), which i named (temp_normalizer) and one (Dense leayer with one unit)
+* One single node means that my model is linear, output is also linear, because it doesn't have any activation function
+
+# Then I compile my model with (Adam optimizer and loss as mean squared error), I set also learning rate at (0.1)
+* And set loss as "mean_squared_error", to evaluate my linear model
+* Then I train my model with (X_train_temp and y_train_temp) and also validation sets (X_val_temp and y_val_temp)
+
+# I use my (plot function) and see that my loss i decreasing, it is calculated with MSE
+
+# Then I gonna use this same plot as previous for my (Linear Regression model) and use it on (Neural Net Regressor)
+* We can see that our (Neural Net Regressor) predict just a bit different
+* Its a different aproach, with use of backpropagtion to train our Neural Net
+
+# Now I gonna use Neural Net instead of one single node to make predictions
+* I use my normalizer to (normalize and adapt all features of my dataset X_train_all)
+* I have six features, so I put (input_shape equal 6), and then I can build my Neural Net
+
+# First I can put my (normalised layer), then two hidden layers with (32 neurons and activation relu)
+* And the output layer (without activation) and I compile with this same parameters as previous, but decrease (learning_rate just a bit)
+* Then I do training of my model with (X_train_all and y_train_all) and also valid data (X_val_all and y_val_all)
+
+# On my graph I see that loss is decreasing not as smooth as previous, but it reach same results as previous
+
+# In our Neural Net model i can't get score, but I can use (mean squared error) to evaluate my model
+* I gonna write (MSE function and use it on Linear Regression model as well as on Neural Net model)
+* So I get predictions for (y_pred_lr and y_pred_nn) on (X_test_all)
+* And (MSE function will take) (square difference between y_pred - y_real and take mean of it), thats how I gonna get 
+* I get (mean squared error) for Linear Regression and then for Neural Net
+
+# Whats interesting on Neural Net I have larger (mean squared error), Now I gonna plot (actual results vs predictions)
+
+# I gonna plot the results on the same axes, so I set (aspect to 'equal') and then set (true values and predictions for Linear Regression and Neural net)
+* Then set limits for (approximate number of bikes), dots for Neural Net are more spread out
+* And Linear Regression fit better, so in this case (Linear Regressor) perform better 
+
+# It is valuable to use (non-linear model) for comparison with the results of Linear model to see which one perform better
