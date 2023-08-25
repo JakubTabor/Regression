@@ -7,5 +7,6 @@
 * I use various graph plots to explore different features in my data and correlation between them
 * Then separate smokers and non-smokers in my examinations it is very important to to get the most clear image of the patients
 * To boost performance of my model I use PolynomialFeatures to expand predictions possibilities and help my model figure out more patterns in my data
+* I make performance measurement of my model using mean squared error and R2 score
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Med_Regression.png)
