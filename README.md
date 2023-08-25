@@ -5,6 +5,7 @@
 
 # I use it on Medical data to predict charges of patients
 * I use various graph plots to explore different features in my data and correlation between them
-* I separate smokers and non-smokers in my examinations it is very important to to get the most clear image of the patients
+* Then separate smokers and non-smokers in my examinations it is very important to to get the most clear image of the patients
+* To boost performance of my model I use PolynomialFeatures to expand predictions possibilities and help my model figure out more patterns in my data
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Med_Regression.png)
