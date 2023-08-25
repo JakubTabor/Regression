@@ -13,3 +13,6 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Med_Regression.png)
 
 # Then I use Linear Regression model to to see which features affect the most on bikes renting frequency
+
+
+![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
