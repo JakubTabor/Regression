@@ -11,3 +11,5 @@
 * Finally I use hlines plot to see how my Linear Regression model with horizontal line fits in my data
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Med_Regression.png)
+
+# Then I use Linear Regression model to to see which features affect the most on bikes renting frequency
