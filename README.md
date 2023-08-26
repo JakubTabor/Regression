@@ -17,6 +17,7 @@
 * Then in pure python I create X and Y features of my data and then split them into Train, test and validation sets
 * First I train my Linear model on one features which fits the most to the linear pattern
 * And get answer that exist some correlation between number of bikes rented and temperature
+* Then I use all features and get much higher score, it means that all features merge make more sense for our model predictions
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
 
