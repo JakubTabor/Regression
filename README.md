@@ -20,6 +20,7 @@
 * Then I use all features and get much higher score, it means that all features merge make more sense for our model predictions
 * Next I normalize my data and train Neural Net Regressor model
 * And measure performance of both Linear Regression model and Neural Net using MSE
+* Final answer for my examination is that in this case Linear Regression Model work better
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
 
