@@ -21,6 +21,7 @@
 * Next I normalize my data and train Neural Net Regressor model
 * And measure performance of both Linear Regression model and Neural Net using MSE
 * Final answer for my examination is that in this case Linear Regression Model work better
+* I plot both models predictions on Graph
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
 
