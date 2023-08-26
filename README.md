@@ -18,7 +18,8 @@
 * First I train my Linear model on one features which fits the most to the linear pattern
 * And get answer that exist some correlation between number of bikes rented and temperature
 * Then I use all features and get much higher score, it means that all features merge make more sense for our model predictions
-* Next I normalize my data and train Neural Net Regressor model 
+* Next I normalize my data and train Neural Net Regressor model
+* And measure performance of both Linear Regression model and Neural Net using MSE
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
 
