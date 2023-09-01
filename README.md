@@ -23,6 +23,7 @@
 * Final answer for my examination is that in this case Linear Regression Model work better
 * I plot both models predictions on Graph
 
+![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
 
 # I use Linear Regression model to examine correlation between temperature and remaining features
