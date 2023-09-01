@@ -71,3 +71,5 @@
 * Then I use (plt hlines) to (draw horizontal lines) on my dataset predictions
 
 # My model perform very well on the dataset, I need to use (horizontal lines) to fit to the data
+
+![](https://github.com/JakubTabor/Regression/blob/main/Images/Med_Regression.png)
