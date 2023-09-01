@@ -222,3 +222,5 @@
 * One feature as Salinity is not enough to find a link with Temperature
 * In order to enhance the temperature prediction with the linear regression model we need to use more features 
 * That way we give useful informations to our predictive model.
+
+![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
