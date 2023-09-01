@@ -30,5 +30,6 @@
 * Next I build correlation between all my features and examine particular with help of matplotlib
 * Expand data knowledge using new parameter which is density, it help discover correlation between temperature and salinity
 * Then I create train and test set using pure python, first for solo salinity and then for all features
+* I measure error of my model using Rmse which is MSE squared
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
