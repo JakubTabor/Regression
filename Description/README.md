@@ -153,3 +153,5 @@
 * And Linear Regression fit better, so in this case (Linear Regressor) perform better 
 
 # It is valuable to use (non-linear model) for comparison with the results of Linear model to see which one perform better
+
+![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
