@@ -23,10 +23,11 @@
 * Final answer for my examination is that in this case Linear Regression Model work better
 * I plot both models predictions on Graph
 
-![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Bikes_Regression.png)
 
 # I use Linear Regression model to examine correlation between temperature and remaining features
 * First I figure out size of missing values with help of seaborn and then drop them
 * Next I build correlation between all my features and examine particular with help of matplotlib
 * Expand data knowledge using new parameter which is density, it help discover correlation between temperature and salinity
+
+![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
