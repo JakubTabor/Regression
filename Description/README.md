@@ -1,1 +1,73 @@
+**MEDICAL REGRESSION MODEL**
+# Here I gonna explore dataset that include some informations about (smokers and non-smokers), I need to find strong correlations 
+* And then use (Linear model) to deal with this dataset 
 
+# First I gonna check if my dataset include any (null values), it seems that this dataset is complete
+* Now I gonna do simple preprocessing, so I import (LabelEncoder and OneHotEncoder)
+* I use (LabelEncoder) to (drop duplicates from sex column) and change this column into numerical values
+* I do this same with (smoker column) and also with region column
+* My (region column) get numbers for each region, its not so good because they have no correlation, but its ok for now
+
+# Then I look at correlation of each column in relation to (charges column), I can see that (smoker cloumn) have the strongest correlation
+* I also (sort values) from the lowest to the highest, now I gonna explore the correlation in detail using different graph plots
+
+# First I visualize all correlations on (subplots), for better visuality
+* Then I visualize distribution of charges for (smokers and no-smokers), I can clearly see that smokers spent more on treatment
+* (no-smokers) spent from (0 - 20 000) and (smokers) spent from (10 000 - 50 000) then charges are decreasing
+
+# Now we are gonna look (number of smokers and no-smokers) according to sex
+* We can notice that the number of smoking mens is higher than woman smokers, also non-smkoer womans are in majority
+* Now we are gonna see, how look charges for (smoking womens and non-smoking womens), I use to do it (Box plot)
+* We can see that smokers womes spent from (20 000 - 40 000) and non-smoker womens spent from (5 000 - 10 000)
+
+# Then I plot on graph charges of (smoking mens and non-smoking mens) on a (Box plot)
+* Charges are similar to (womens charges) from (5 000 - 10 000) non-smokers and (20 000 - 40 000) for smokers
+
+# Now I gonna plot (Distribution of age) for patients, most of them are (around 20 years old) and range of data is from (20 to 65 year old)
+* What's interesting to notice is that we have patients (below 20 years old), we are gonna plot it on (catplot)
+* Trend for smokers and non-smoker (depending on the age) is this same as previous, we have more smokers man and more non-smokers women
+
+# Now we are gonna plot on (Box plot) charges for (18 year old smokers), non-smokers spend less than (5 000)
+* But (18 year old smokers) spend from (15 000 - 35 000) for treatment, very similar to older (smokers persons)
+
+# Now we are gonna use (distplot) to see (Distribution of bmi), we can see that (BMI) grow from around (18 to somewhere over 30)
+* At around (30 years old it reaches the pick) and start decreasing to age of (50 years old)   
+* Next we are gonna see how look charges for persons (with BMI equal or greater than 30), so when BMI reaches the pick
+* Persons with (BMI equal or greater than 30) spend the most from (0 to 20 000) then less of them something around (30 000 to 50 000)
+* Now we are gonna compare (Distribution of charges for patients with BMI less than 30)
+* The most of patients spend from (0 to 10 000) then spends decrease to (30 000)
+* The data for persons (BMI greater than 30) is irregular distributed, in case of (Persons with BMI less than 30), data keep the flowing pattern
+
+# Now we are gonna plot on Scatter plot (charges and bmi for smokers and non-smokers), then we do this same on (lmplot)
+* We can see that the (charges growth when BMI growth) and there are higher charges for smokers
+* We can also se on (lmplot) linear pattern of data and rapid growth of charges for smokers
+
+# Now we are gonna look at (dependence of number of children for patients) I gonna use (catplot) for it
+* The most of patients don't have children, then some patients have (1 children or 2), in minority (patients have 3 or more)
+* Then I plot also on (catplot) number of (smokers and non-smokers) with dependence of sex, who have more than 0 childrens
+* It seems that lot of smokers have children's (and most of them are mens)
+
+# Now i gonna use (Linear model) on my dataset, so first I need to divide my data into (train and test sets)
+* I prepare (X and y which is the target column) for (train_test_split) and I get (X and y sets)
+
+# Then I can import (LinearRegression) model and train it with (X_train and y_train), score is good, but we can boost it
+* I prepare (train and test set predictions) to plot them later on graph
+
+# Now I gonna prepare new (X and y) without (region column), I gonna (preprocess my data using PolynomialFeatures)
+* It gonna help my model to identify (nonlinear patterns) by adding polynomial terms to the model
+* The (degree) of the polynomial is used to control the number of features added, I set it to (two)
+* Then I transform my data (without target column) with use of (PolynomialFeatures)
+* And I create new (train and test sets) with (PolynomialFeatures) inside
+
+# I train my model once again (X_train and y_train) and call it (Polynomial Regression), score i much higher than previous
+* Then I also prepare predictions for (train and test set)
+
+# I print (mean squared error) for (train data and test data) and also (r2 score) for (train data and test data)
+* (R2 score) is used to evaluate the performance of a (linear regression model), (Best possible score is 1.0)
+* We have (0.833 on train data and 0.881 on test data) which is good, the worst score is (0.0)
+
+# Now I gonna print (how my model make predictions on the given dataset)
+* I supply (Y_train_pred) and then difference between (Y_train_pred - y_train), then i supply (Y_test_pred) and then difference between (Y_test_pred - y_test)
+* Then I use (plt hlines) to (draw horizontal lines) on my dataset predictions
+
+# My model perform very well on the dataset, I need to use (horizontal lines) to fit to the data
