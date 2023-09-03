@@ -8,3 +8,4 @@
 
 # Then i deal with missing values, it will drop columns with more than 50% of missing values, but if columns have less than 50% it will fill missing values with mean value
 * Now we are gonna extract gaussian columns from our dataset, so after rejection of null hipotesis we are searching for columns that significance is greater than 0.5
+* We are gonna use Z-Score technique to detect outliers and also look at normally distributed columns
