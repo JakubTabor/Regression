@@ -32,5 +32,6 @@
 * Then I create train and test set using pure python, first for solo salinity and then for all features
 * I measure error of my model using Rmse which is MSE squared
 * Finally plot my model performance on temperature and salinity data
+* And decrease error of my model using all features to train my model Multi Linear Regression
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
