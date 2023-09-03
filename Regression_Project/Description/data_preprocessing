@@ -1,1 +1,2 @@
-# In this section i gonna use Regression model on my already preprocessed data
+# I gonna use Regression model on Cancer data 
+* First I check my data distribution and look if there are any outliers, to do this i use histplot and Boxplot
