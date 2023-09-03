@@ -2,3 +2,4 @@
 * First I check my data distribution and look if there are any outliers, to do this i use histplot and Boxplot
 
 # Then I am searching for columns with single or few values and duplicates and data and deal with all of them
+* I have complicated column (bindIng), so I write the function that will remove brackets and split values, take a mean and remove remaining column
