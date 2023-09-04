@@ -16,3 +16,7 @@
 # Next I gonna identify columns that have skewed distribution and plot them on graph
 * I use boxplot to see all outliers in my data
 
+# Then i define upper and lower limit using quantile method
+* using this method i write function that will return me columns with outliers
+
+
