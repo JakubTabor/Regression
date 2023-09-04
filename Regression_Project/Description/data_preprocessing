@@ -22,4 +22,5 @@
 # Now I can use Trimming or cupping method to detect and remove outliers
 * I choose cupping method to not loos so many informations because this technique replace outliers with max and min allowed
 
+# When I plot my data of graph i can see that all outliers are gone, my data is ready
 
