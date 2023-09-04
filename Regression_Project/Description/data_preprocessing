@@ -14,4 +14,5 @@
 * Then i gonna remove categorical columns with less than 10 unique values
 
 # Next I gonna identify columns that have skewed distribution and plot them on graph
+* I use boxplot to see all outliers in my data
 
