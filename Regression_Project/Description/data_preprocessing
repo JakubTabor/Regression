@@ -19,4 +19,6 @@
 # Then i define upper and lower limit using quantile method
 * using this method i write function that will return me columns with outliers
 
+# Now I can use Trimming or cupping method to detect and remove outliers, i choose cupping method to not loos so many informations because this technique replace outliers with max and min allowed
+
 
