@@ -6,3 +6,5 @@
 
 # I define my OLS model and add a constant to my X_train set
 * It means that every row in this columns will be multiplied with bias equal one
+
+# Next in my function i define model training with y_train and changed X_train
