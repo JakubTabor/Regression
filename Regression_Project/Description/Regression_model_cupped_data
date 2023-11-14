@@ -2,3 +2,4 @@
 * First i write a function that will build correlation between columns and return columns with more than 80% correlation
 
 # I gonna use it on my cupped data, it will help my model figure out the most significant features from my data 
+* Then I use sklearn to split my data into train and test sets, i write it in form of function and use it on my dataset
