@@ -13,6 +13,7 @@
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Med_Regression.png)
 
+# [Example 2: Bikes renting](https://github.com/JakubTabor/Regression/blob/main/Bikes_data_Rgression.ipynb)
 # Then I use Linear Regression model to to see which features affect the most on bikes renting frequency
 * I plot data distribution to see which feature fits the most to linear pattern
 * Then in pure python I create X and Y features of my data and then split them into Train, test and validation sets
