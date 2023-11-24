@@ -3,6 +3,7 @@
 * It can be use to examine the differences between features in data, because some kinds of data fits better than others.
 * This type of examination is common in scientific tests e.g: role of statistics in clinical trial in the drug approval
 
+# [Example 1: Medical charges](https://github.com/JakubTabor/Regression/blob/main/Medical_data_Regression.ipynb)
 # I use it on Medical data to predict charges of patients
 * I use various graph plots to explore different features in my data and correlation between them
 * Then separate smokers and non-smokers in my examinations it is very important to to get the most clear image of the patients
