@@ -13,7 +13,9 @@
 
 # Then I deal with (Geography) column, because it have two variables with comma, I need to split them and save in different columns
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/categ_to_col_function.png)
-* I write also function that will take categorical (object) columns and convert them into encoded, numerical columns
+
+# I write also function that will take categorical (object) columns and convert them into encoded, numerical columns
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/one_hot_encoding_function.png)
 
 # Then i deal with missing values, it will drop columns with more than 50% of missing values, but if columns have less than 50% it will fill missing values with mean value
 * Now we are gonna extract gaussian columns from our dataset, so after rejection of null hipotesis we are searching for columns that significance is greater than 0.5
