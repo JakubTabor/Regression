@@ -5,6 +5,7 @@
 
 # I also check distiobution of the data on boxplot
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Boxplot_death_rate.png)
+* We can see outliers above and below the (upper and lower fences)
 
 # Then I am searching for columns with single or few values and duplicates and data and deal with all of them
 * I have complicated column (bindIng), so I write the function that will remove brackets and split values, take a mean and remove remaining column
