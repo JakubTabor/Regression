@@ -1,1 +1,36 @@
+# I gonna use Regression model on Cancer data 
+* First I check my data distribution and look if there are any outliers, to do this i use histplot
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Histogram_death_rate.png)
+* We can see the data that is placed apart from most of the distribution
 
+# I also check distiobution of the data on boxplot
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Boxplot_death_rate.png)
+* We can see outliers above and below the (upper and lower fences)
+
+# Then I am searching for columns with single or few values and duplicates and data and deal with all of them
+* I have complicated column (bindIng), so I write the function that will remove brackets and split values, take a mean and remove remaining column
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/bin_to_num_function.png)
+
+# Then I deal with (Geography) column, because it have two variables with comma, I need to split them and save in different columns
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/categ_to_col_function.png)
+
+# I write also function that will take categorical (object) columns and convert them into encoded, numerical columns
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/one_hot_encoding_function.png)
+
+# Then i deal with missing values, it will drop columns with more than 50% of missing values, but if columns have less than 50% it will fill missing values with mean value
+* Now we are gonna extract gaussian columns from our dataset, so after rejection of null hipotesis we are searching for columns that significance is greater than 0.5
+* We are gonna use Z-Score technique to detect outliers and also look at normally distributed columns
+
+# I write function that will define outliers and extract columns without them
+* Then i gonna remove categorical columns with less than 10 unique values
+
+# Next I gonna identify columns that have skewed distribution and plot them on graph
+* I use boxplot to see all outliers in my data
+
+# Then i define upper and lower limit using quantile method
+* using this method i write function that will return me columns with outliers
+
+# Now I can use Trimming or cupping method to detect and remove outliers
+* I choose cupping method to not loos so many informations because this technique replace outliers with max and min allowed
+
+# When I plot my data of graph i can see that all outliers are gone, my data is ready
