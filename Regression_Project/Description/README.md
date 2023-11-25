@@ -8,7 +8,8 @@
 * We can see outliers above and below the (upper and lower fences)
 
 # Then I am searching for columns with single or few values and duplicates and data and deal with all of them
-* I have complicated column (bindIng), so I write the function that will remove brackets and split values, take a mean and remove remaining column
+* I have complicated column (bindIng) i write the function that will remove brackets and split values, take a mean and remove remaining column
+
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/bin_to_num_function.png)
 
 # Then I deal with (Geography) column, because it have two variables with comma, I need to split them and save in different columns
