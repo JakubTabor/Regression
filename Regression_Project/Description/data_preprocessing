@@ -1,6 +1,7 @@
 # I gonna use Regression model on Cancer data 
-* First I check my data distribution and look if there are any outliers, to do this i use histplot and Boxplot
+* First I check my data distribution and look if there are any outliers, to do this i use histplot
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Histogram_death_rate.png)
+* We can see the data that is placed apart from most of the distribution
 
 # Then I am searching for columns with single or few values and duplicates and data and deal with all of them
 * I have complicated column (bindIng), so I write the function that will remove brackets and split values, take a mean and remove remaining column
