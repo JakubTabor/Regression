@@ -26,6 +26,7 @@
 * We are gonna use Z-Score technique to detect outliers and also look at normally distributed columns
 
 # I write function that will define outliers and extract columns without them
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/deal_with_outliers.png)
 * Then i gonna remove categorical columns with less than 10 unique values
 
 # Next I gonna identify columns that have skewed distribution and plot them on graph
