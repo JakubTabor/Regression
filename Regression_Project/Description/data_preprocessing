@@ -35,6 +35,7 @@
 * We can see that we have bunch of them
 
 # Then i define upper and lower limit using quantile method
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/quantile_upper_lower_limit.png)
 * using this method i write function that will return me columns with outliers
 
 # Now I can use Trimming or cupping method to detect and remove outliers
