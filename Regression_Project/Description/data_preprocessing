@@ -36,10 +36,11 @@
 
 # Then i define upper and lower limit using quantile method
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/quantile_upper_lower_limit.png)
-* using this method i write function that will return me columns with outliers
+* Using this method i write function that will return me columns with outliers
 
 # Now I can use Trimming or cupping method to detect and remove outliers
-* I choose cupping method to not loos so many informations because this technique replace outliers with max and min allowed
+* I choose cupping method to not loos so many informations
+* This technique replace outliers with max and min allowed
 
 # When I plot my data of graph i can see that all outliers are gone, my data is ready
 
