@@ -39,6 +39,7 @@
 * Using this method i write function that will return me columns with outliers
 
 # Now I can use Trimming or cupping method to detect and remove outliers
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/capping_function.png)
 * I choose cupping method to not loos so many informations
 * This technique replace outliers with max and min allowed
 
