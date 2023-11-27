@@ -44,3 +44,4 @@
 * This technique replace outliers with max and min allowed
 
 # When I plot my data of graph i can see that all outliers are gone, my data is ready
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/boxplot_no_outliers.png)
