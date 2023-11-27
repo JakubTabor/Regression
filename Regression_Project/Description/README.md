@@ -30,7 +30,7 @@
 * Then i gonna remove categorical columns with less than 10 unique values
 
 # Next I gonna identify columns that have skewed distribution and plot them on graph
-![(https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/identify_skewed_function.png)
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/identify_skewed_function.png)
 * I use boxplot to see all outliers in my data
 * We can see that we have bunch of them
 
