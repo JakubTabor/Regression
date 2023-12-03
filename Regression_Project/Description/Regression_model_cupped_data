@@ -17,5 +17,6 @@
 
 # Then i call my function and use it on my Linear Regression model
 * I must add constant to my X_train and use my model function
+* to train it on significant variables of X_train and just y_train
 
 
