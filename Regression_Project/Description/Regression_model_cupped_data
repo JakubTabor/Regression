@@ -12,5 +12,6 @@
 
 # I call summary of my model, now i gonna extract the most important informations
 * Which are p-value, r-squared value, adjusted r-squared value
+* Now i write function to get significant variable, to accomplish it I reject null hypothesis
 
 
