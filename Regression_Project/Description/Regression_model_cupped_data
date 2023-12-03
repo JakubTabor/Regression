@@ -10,6 +10,7 @@
 # Next in my function i define model training with y_train and changed X_train
 * And then i call object of my class and train OLS model on my data
 
-# I call summary of my model, now i gonna extract the most important informations which are p-value, 
+# I call summary of my model, now i gonna extract the most important informations
+* Which are p-value, r-squared value, adjusted r-squared value
 
 
