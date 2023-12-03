@@ -19,4 +19,6 @@
 * I must add constant to my X_train and use my model function
 * to train it on significant variables of X_train and just y_train
 
+# Finally i call summary of my model and i get only the most important measurment and reduce complexity
+
 
