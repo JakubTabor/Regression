@@ -15,4 +15,6 @@
 * Now i write function to get significant variable, to accomplish it I reject null hypothesis
 * And set p-value threshold at 0.5, when i get less than 0.5 it means that it is significant variable
 
+# Then i call my function and use it on my Linear Regression model
+
 
