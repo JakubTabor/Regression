@@ -8,3 +8,5 @@
 * It means that every row in this columns will be multiplied with bias equal one
 
 # Next in my function i define model training with y_train and changed X_train
+* And then i call object of my class and train OLS model on my data
+
