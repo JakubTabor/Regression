@@ -1,3 +1,4 @@
+# [First step: Data Preprocessing]()
 # I gonna use Regression model on Cancer data 
 * First I check my data distribution and look if there are any outliers, to do this i use histplot
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Histogram_death_rate.png)
@@ -45,3 +46,5 @@
 
 # When I plot my data of graph i can see that all outliers are gone, my data is ready
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/boxplot_no_outliers.png)
+
+# []()
