@@ -25,5 +25,6 @@
 * to train it on significant variables of X_train and just y_train
 
 # Finally i call summary of my model and i get only the most important measurment and reduce complexity
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/summary_2.png)
 
 
