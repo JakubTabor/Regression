@@ -1,4 +1,4 @@
-# [First step: Data Preprocessing]()
+# [First step: Data Preprocessing](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_data_preprocessing_0.ipynb)
 # I gonna use Regression model on Cancer data 
 * First I check my data distribution and look if there are any outliers, to do this i use histplot
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Histogram_death_rate.png)
