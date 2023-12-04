@@ -14,7 +14,9 @@
 
 # I call summary of my model, now i gonna extract the most important informations
 * Which are p-value, r-squared value, adjusted r-squared value
-* Now i write function to get significant variable, to accomplish it I reject null hypothesis
+
+# Now i write function to get significant variable, to accomplish it I reject null hypothesis
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/significant_variables_function.png)
 * And set p-value threshold at 0.5, when i get less than 0.5 it means that it is significant variable
 
 # Then i call my function and use it on my Linear Regression model
