@@ -7,6 +7,7 @@
 
 # I define my OLS model and add a constant to my X_train set
 * It means that every row in this columns will be multiplied with bias equal one
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Linear_Regression_model.png)
 
 # Next in my function i define model training with y_train and changed X_train
 * And then i call object of my class and train OLS model on my data
