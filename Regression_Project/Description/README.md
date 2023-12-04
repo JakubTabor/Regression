@@ -75,6 +75,33 @@
 * to train it on significant variables of X_train and just y_train
 
 # Finally i call summary of my model and i get only the most important measurment and reduce complexity
+# In this section i gonna use Regression model on my already preprocessed data
+* First i write a function that will build correlation between columns and return columns with more than 80% correlation
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/correlation_function.png)
 
+# I gonna use it on my cupped data, it will help my model figure out the most significant features from my data 
+* Then I use sklearn to split my data into train and test sets, i write it in form of function and use it on my dataset
+
+# I define my OLS model and add a constant to my X_train set
+* It means that every row in this columns will be multiplied with bias equal one
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/Linear_Regression_model.png)
+
+# Next in my function i define model training with y_train and changed X_train
+* And then i call object of my class and train OLS model on my data
+
+# I call summary of my model, now i gonna extract the most important informations
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/summary.png)
+* Which are p-value, r-squared value, adjusted r-squared value
+
+# Now i write function to get significant variable, to accomplish it I reject null hypothesis
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/significant_variables_function.png)
+* And set p-value threshold at 0.5, when i get less than 0.5 it means that it is significant variable
+
+# Then i call my function and use it on my Linear Regression model
+* I must add constant to my X_train and use my model function
+* to train it on significant variables of X_train and just y_train
+
+# Finally i call summary of my model and i get only the most important measurment and reduce complexity
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/summary_2.png)
 
 
