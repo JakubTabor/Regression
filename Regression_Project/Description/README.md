@@ -47,7 +47,7 @@
 # When I plot my data of graph i can see that all outliers are gone, my data is ready
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/boxplot_no_outliers.png)
 
-# [2 step: Regression Model]()
+# [2 step: Regression Model](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_model_on_cupped_data.ipynb)
 # In this section i gonna use Regression model on my already preprocessed data
 * First i write a function that will build correlation between columns and return columns with more than 80% correlation
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/correlation_function.png)
