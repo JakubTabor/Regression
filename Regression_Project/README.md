@@ -5,3 +5,6 @@
 * Various plots will gonna help me see what is the percentage of outliers in data and how my data is distributed
 * Especially we are looking for columns with normal distribution (gaussian columns)
 * And techniques of replacing outliers rather than removing them
+
+# I write some functions for data preprocessing
+* 
