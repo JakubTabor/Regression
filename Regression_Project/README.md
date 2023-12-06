@@ -8,3 +8,4 @@
 
 # I write some functions for data preprocessing
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/bin_to_num_function.png)
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/binnedInc_column.png)
