@@ -7,5 +7,6 @@
 * And techniques of replacing outliers rather than removing them
 
 # I write some functions for data preprocessing
+* Function that deal with column (right image) and return three different columns that interpreted same data
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/bin_to_num_function.png)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/binnedInc_column.png)
