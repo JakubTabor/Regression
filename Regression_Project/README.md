@@ -10,3 +10,4 @@
 * Function that deal with column (right image) and return three different columns that interpreted same data
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/bin_to_num_function.png)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/binnedInc_column.png)
+# And function which deals with geography column
