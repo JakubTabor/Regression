@@ -15,3 +15,4 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/geography_column.png)
 * And function for one hot encoding
 # Next i write the function that identify gaussian columns
+* But i have only one normally distibuted column
