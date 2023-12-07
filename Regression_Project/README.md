@@ -12,3 +12,4 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/binnedInc_column.png)
 # And function which deals with geography column
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/geography_function.png)
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/geography_column.png)
