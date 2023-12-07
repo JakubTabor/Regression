@@ -19,3 +19,5 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/gaussian_column.png)
 * I also write the function that shows me rest of the columns that are skewed, so they are not normally distributed
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/skewed_columns.png)
+
+# Then i write the function that will return me columns with outliers
