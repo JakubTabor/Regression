@@ -16,3 +16,4 @@
 * And function for one hot encoding
 # Next i write the function that identify gaussian columns
 * But i have only one normally distibuted column
+* I also write the function that shows me rest of the columns that are skewed, so they are not normally distributed
