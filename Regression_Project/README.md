@@ -13,4 +13,5 @@
 # And function which deals with geography column
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/geography_function.png)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/geography_column.png)
-# And function for one hot encoding
+* And function for one hot encoding
+# Next i write the function that identify gaussian columns
