@@ -24,6 +24,7 @@
 # Then i write the function that will return me columns with outliers
 * This function takes the upper and lower limit and everything above and below are outliers
 # And next i write function that take this all columns with outliers and replace them with (max. and min.) allowed
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/capping_function.png)
 * This technique helps me keep the informations and get better final model statistics
 # Now all outliers are gone and we don't loose many informations (data)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/boxplot_no_outliers.png)
