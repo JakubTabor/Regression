@@ -21,3 +21,4 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/skewed_columns.png)
 
 # Then i write the function that will return me columns with outliers
+* This function takes the upper and lower limit and everything above and below are outliers
