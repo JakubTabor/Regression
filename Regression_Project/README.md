@@ -31,3 +31,4 @@
 # There is no data below and above the lower and upper fence, this is what we achieve
 
 # [Next step: Regression Model](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_model_on_cupped_data.ipynb)
+# Now when my data is ready i gonna use the OLS Regression model 
