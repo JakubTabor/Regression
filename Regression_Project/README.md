@@ -32,3 +32,4 @@
 
 # [Next step: Regression Model](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_model_on_cupped_data.ipynb)
 # Now when my data is ready i gonna use the OLS Regression model 
+* First i write function that will build correlation between all columns
