@@ -22,3 +22,4 @@
 
 # Then i write the function that will return me columns with outliers
 * This function takes the upper and lower limit and everything above and below are outliers
+# And next i write function that take this all columns with outliers and replace them with (max. and min.) allowed
