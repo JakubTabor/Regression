@@ -29,3 +29,5 @@
 # Now all outliers are gone and we don't loose many informations (data)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/boxplot_no_outliers.png)
 # There is no data below and above the lower and upper fence, this is what we achieve
+
+# [Next step: Regression Model](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_model_on_cupped_data.ipynb)
