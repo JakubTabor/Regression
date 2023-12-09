@@ -44,3 +44,4 @@
 # Next i create function to split my data into (train and test sets)
 * And i call the instace of the model to train it
 * I add the constant (bias) to multiply every row with one
+# When i call the summary of my model i get nice results, but i need to reduce the complexity of this model
