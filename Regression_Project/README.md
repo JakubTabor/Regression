@@ -43,3 +43,4 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/columns.png)
 # Next i create function to split my data into (train and test sets)
 * And i call the instace of the model to train it
+* I add the constant (bias) to multiply every row with one
