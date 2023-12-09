@@ -39,3 +39,5 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/correlation_function.png)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/highy_corr_columns.png)
 # But i can see that the high correlated columns are a little piece of my dataframe
+* Thats rest of my columns:
+![]()
