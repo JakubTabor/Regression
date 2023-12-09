@@ -37,3 +37,4 @@
 * First i write function that will build correlation between all columns
 * I need to know which of my columns have the strongest correlation, so it will return me columns with more than 80%
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/correlation_function.png)
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/highy_corr_columns.png)
