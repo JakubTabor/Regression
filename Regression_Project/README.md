@@ -48,3 +48,4 @@
 * There are a lot of variables, but i want only the most significant
 * So i define function which return me them, with (p-value threshold) less than 0.5
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/significant_variables_function.png)
+* There are only 136 column, so not much of all the data
