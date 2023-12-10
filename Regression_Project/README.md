@@ -50,3 +50,4 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/significant_variables_function.png)
 * There are only (136 of 1890) column, so not much of all the data
 # Our goal i achieved, we get nice robust model
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/summary_2.png)
