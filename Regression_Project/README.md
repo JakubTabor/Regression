@@ -47,3 +47,4 @@
 # When i call the summary of my model i get nice results, but i need to reduce the complexity of this model
 * There are a lot of variables, but i want only the most significant
 * So i define function which return me them, with (p-value threshold) less than 0.5
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/significant_variables_function.png)
