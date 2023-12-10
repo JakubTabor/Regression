@@ -38,3 +38,5 @@
 * And decrease error of my model using all features to train my model Multi Linear Regression
 
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
+
+# [Regression project](https://github.com/JakubTabor/Regression/tree/main/Regression_Project)
