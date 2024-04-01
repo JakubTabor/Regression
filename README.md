@@ -40,3 +40,5 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
 
 # [Regression project](https://github.com/JakubTabor/Regression/tree/main/Regression_Project)
+
+![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/skewed_columns.png)
