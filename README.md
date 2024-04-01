@@ -40,5 +40,5 @@
 ![](https://github.com/JakubTabor/Regression/blob/main/Images/Regression.png)
 
 # [Regression project](https://github.com/JakubTabor/Regression/tree/main/Regression_Project)
-
+# In these project i gonna build a model for cancer dataset
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/skewed_columns.png)
