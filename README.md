@@ -42,4 +42,6 @@
 # [Regression project](https://github.com/JakubTabor/Regression/tree/main/Regression_Project)
 # In these project i gonna build a model for cancer dataset
 # [First step: Data Preprocessing](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_data_preprocessing_0.ipynb)
+
+# [Next step: Regression Model](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Regression_model_on_cupped_data.ipynb)
 ![](https://github.com/JakubTabor/Regression/blob/main/Regression_Project/Images/skewed_columns.png)
